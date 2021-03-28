@@ -1,0 +1,43 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+section
+{
+	height: 100vh;
+	background: #000;
+}
+h1
+{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	font-family: cursive;
+}
+input
+{
+	border: double;
+	color: red;
+	font-size: bold; 
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 22px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 8px;
+	background-color: white;
+	border: 3px solid red;
+}
+input:hover
+{
+	background-color: red;
+	color: white;
+}
